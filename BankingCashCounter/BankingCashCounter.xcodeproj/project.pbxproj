@@ -1,0 +1,256 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0AEF7F0D1D3D0BB80062217D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AEF7F0C1D3D0BB80062217D /* main.swift */; };
+		0AEF7F141D3D0BD40062217D /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AEF7F131D3D0BD40062217D /* Queue.swift */; };
+		0AEF7F161D3D125B0062217D /* BankOperations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AEF7F151D3D125B0062217D /* BankOperations.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0AEF7F071D3D0BB80062217D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0AEF7F091D3D0BB80062217D /* BankingCashCounter */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BankingCashCounter; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AEF7F0C1D3D0BB80062217D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		0AEF7F131D3D0BD40062217D /* Queue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
+		0AEF7F151D3D125B0062217D /* BankOperations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BankOperations.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0AEF7F061D3D0BB80062217D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AEF7F001D3D0BB80062217D = {
+			isa = PBXGroup;
+			children = (
+				0AEF7F0B1D3D0BB80062217D /* BankingCashCounter */,
+				0AEF7F0A1D3D0BB80062217D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0AEF7F0A1D3D0BB80062217D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0AEF7F091D3D0BB80062217D /* BankingCashCounter */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0AEF7F0B1D3D0BB80062217D /* BankingCashCounter */ = {
+			isa = PBXGroup;
+			children = (
+				0AEF7F0C1D3D0BB80062217D /* main.swift */,
+				0AEF7F131D3D0BD40062217D /* Queue.swift */,
+				0AEF7F151D3D125B0062217D /* BankOperations.swift */,
+			);
+			path = BankingCashCounter;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0AEF7F081D3D0BB80062217D /* BankingCashCounter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AEF7F101D3D0BB80062217D /* Build configuration list for PBXNativeTarget "BankingCashCounter" */;
+			buildPhases = (
+				0AEF7F051D3D0BB80062217D /* Sources */,
+				0AEF7F061D3D0BB80062217D /* Frameworks */,
+				0AEF7F071D3D0BB80062217D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BankingCashCounter;
+			productName = BankingCashCounter;
+			productReference = 0AEF7F091D3D0BB80062217D /* BankingCashCounter */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0AEF7F011D3D0BB80062217D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = BridgeLabz;
+				TargetAttributes = {
+					0AEF7F081D3D0BB80062217D = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 0AEF7F041D3D0BB80062217D /* Build configuration list for PBXProject "BankingCashCounter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0AEF7F001D3D0BB80062217D;
+			productRefGroup = 0AEF7F0A1D3D0BB80062217D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0AEF7F081D3D0BB80062217D /* BankingCashCounter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0AEF7F051D3D0BB80062217D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AEF7F161D3D125B0062217D /* BankOperations.swift in Sources */,
+				0AEF7F0D1D3D0BB80062217D /* main.swift in Sources */,
+				0AEF7F141D3D0BD40062217D /* Queue.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0AEF7F0E1D3D0BB80062217D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0AEF7F0F1D3D0BB80062217D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0AEF7F111D3D0BB80062217D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0AEF7F121D3D0BB80062217D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0AEF7F041D3D0BB80062217D /* Build configuration list for PBXProject "BankingCashCounter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AEF7F0E1D3D0BB80062217D /* Debug */,
+				0AEF7F0F1D3D0BB80062217D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AEF7F101D3D0BB80062217D /* Build configuration list for PBXNativeTarget "BankingCashCounter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AEF7F111D3D0BB80062217D /* Debug */,
+				0AEF7F121D3D0BB80062217D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0AEF7F011D3D0BB80062217D /* Project object */;
+}

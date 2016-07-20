@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "BAD0F485DF4E84B509249DA4BCEA9EFBCC6BC5FF",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "BAD0F485DF4E84B509249DA4BCEA9EFBCC6BC5FF" : 0,
+    "185113AA7A5D1057F715CDE03C05A8788662CF4A" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "657FE4C3-15AF-4F50-BE88-09A24220600E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "BAD0F485DF4E84B509249DA4BCEA9EFBCC6BC5FF" : "swift\/",
+    "185113AA7A5D1057F715CDE03C05A8788662CF4A" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Anagram",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Anagram\/Anagram.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/habeebak501\/demo",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "185113AA7A5D1057F715CDE03C05A8788662CF4A"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/lokeshkumarpedda\/Swift_Programs.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "BAD0F485DF4E84B509249DA4BCEA9EFBCC6BC5FF"
+    }
+  ]
+}
