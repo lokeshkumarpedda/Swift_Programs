@@ -1,0 +1,20 @@
+hi hello
+some strings
+words
+bridge labz
+wifi
+android
+ios
+angular
+java
+mean
+binarySearch method for integer
+binarySearch method for String
+insertionSort method for integer
+insertionSort method for String
+bubbleSort method for integer
+bubbleSort method for String
+Write main function to call the utility function
+Check using Stopwatch the Elapsed Time for every method call
+Output the Search and Sorted List. More importantly print elapsed time performance in descending
+order
